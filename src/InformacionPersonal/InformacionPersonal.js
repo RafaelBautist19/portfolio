@@ -6,13 +6,13 @@ function InformacionPersonal() {
         <div className="mt-1">
             <ListGroup variant="">
               <ListGroup.Item className='text-center'><strong>Información Personal</strong></ListGroup.Item>
-              <ListGroup.Item><strong>Nombre:</strong> Rafael Bautista</ListGroup.Item>
               <ListGroup.Item><strong>Correo: </strong>
                 <a href="mailto:rafael.bautista1@hotmail.es">rafael.bautista1@hotmail.es</a>
               </ListGroup.Item>
               <ListGroup.Item><strong>Telefono:</strong> +504-9520-2808</ListGroup.Item>
               <ListGroup.Item><strong>Edad:</strong> 24 años</ListGroup.Item>
-              <ListGroup.Item><strong>Profesión:</strong> Ingeniero en Sistemas</ListGroup.Item>
+              <ListGroup.Item><strong>Ubicación:</strong> Tegucigalpa, Honduras</ListGroup.Item>
+
             </ListGroup>
           </div>
     )

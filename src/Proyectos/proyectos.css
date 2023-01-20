@@ -1,0 +1,40 @@
+.about-myself{
+    background-color: #69adba;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.about-myself h1{
+    text-align: center;
+}
+
+.proyectos{
+    background-color: #69adba;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.proyectos h1{
+    text-align: center;
+    color:white;
+}
+
+.proyectos .card{
+    background-color: #69adba;
+    color: #fff;
+    border: 0.1vh solid #8EC1CA;
+    border-radius: 10px;
+}
+
+.card .card-img{
+    /* border-radius: 50%; */
+    border-radius: 0%;
+    border: white 1px solid;
+}

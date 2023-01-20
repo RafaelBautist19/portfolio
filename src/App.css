@@ -1,6 +1,6 @@
 .sidebar{
     height: 100vh;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #8EC1CA;
     background-color: #69adba;
     color: white;
 }
@@ -26,14 +26,14 @@ hr{
 .list-group-item{
   background-color: #69adba;
   color: white;
-  border: 0.1vh solid white;
+  border: 0.1vh solid #8EC1CA;
   /* Vertically Center */
 }
 
 .list-group-horizontal .list-group-item{
   background-color: #69adba;
   color: white;
-  border: 0.1vh solid white;
+  border: 0.1vh solid #8EC1CA;
   /* Vertically Center */
   display: flex;
   align-items: center;
