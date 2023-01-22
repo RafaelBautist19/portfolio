@@ -7,7 +7,7 @@ function Sidebar() {
   return (
     <div>
           <div className='text-center'>
-            <img src="profile-photo.jpeg" alt="Profile" className="img-fluid mt-4"/>
+            <img src="images/profile-photo.jpeg" alt="Profile" className="img-fluid mt-4"/>
             <h2 className="mt-1">Rafael Bautista</h2>
             {/* Software Engineer */}
             <h5 className="">Software Engineer</h5>

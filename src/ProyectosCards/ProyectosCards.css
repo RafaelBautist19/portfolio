@@ -1,0 +1,36 @@
+.card{
+    /* set height */
+    height: 100%;
+    /* set width */
+    width: 100%;
+    transition: 0.5s;
+}
+
+.card .card-img-top{
+    /* border-radius: 50%; */
+    /* Set height */
+    height: 30vh;
+    /* Set width */
+    width: 100%;
+    /* Set object-fit */
+    object-fit: contain;
+    border: 0.1vh solid #8EC1CA;
+    /* Set transition */
+    transition: 0.5s;
+}
+
+.card-img-top:hover{
+    /* border-radius: 50%; */
+    /* Set height */
+    height: 40vh;
+    /* Set width */
+    width: 100%;
+    /* Set object-fit */
+    object-fit: contain;
+    /* Set transition */
+    transition: 0.5s;
+}
+
+.descripcion{
+    text-align: justify;
+}
