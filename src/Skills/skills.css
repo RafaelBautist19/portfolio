@@ -1,0 +1,7 @@
+/* Center list group when display is xs*/
+@media (max-width: 767px) {
+    .list-group-horizontal {
+        display: block;
+        width: 100%;
+    }
+}

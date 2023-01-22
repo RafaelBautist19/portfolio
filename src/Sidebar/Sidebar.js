@@ -4,6 +4,7 @@ import Skills from "../Skills/Skills";
 
 
 function Sidebar() {
+
   return (
     <div>
           <div className='text-center'>
@@ -15,7 +16,7 @@ function Sidebar() {
           <hr></hr>
           <InformacionPersonal />
           <hr></hr>
-          <Skills />
+          <Skills/>
           <hr></hr>
           {/* Copyright */}
           <div className="text-center">

@@ -5,15 +5,23 @@ import Col from 'react-bootstrap/Col';
 import { Sidebar } from './Sidebar/Sidebar';
 import Proyectos from './Proyectos/Proyectos';
 import './App.css';
+import React from 'react';
 
 function App() {
+
+  const [width, setWidth] = React.useState(window.innerWidth);
+
+  window.addEventListener('resize', () => {
+    setWidth(window.innerWidth);
+  });
+
   return (
     <Container fluid>
       <Row>
-        <Col xs={3} md={3} className="sidebar d-flex flex-column flex-shrink-0 p-3 sticky-top">
+        <Col sm={12} md={4} lg={3} id="sidebar" className={width < 768 ? "sidebar d-md-flex flex-column flex-shrink-0 p-3": "sidebar d-md-flex flex-column flex-shrink-0 p-3 sticky-top" }>
           <Sidebar/>
         </Col>
-        <Col xs={9} md={9} style={{padding:0, backgroundColor:'#eaeaea'}}>
+        <Col sm={12} md={8} lg={9} style={{padding:0, backgroundColor:'#eaeaea'}}>
           <Proyectos />
         </Col>
       </Row>

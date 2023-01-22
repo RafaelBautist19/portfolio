@@ -33,11 +33,11 @@ let proyectos = [
     },
     {
         id: 4,
-        titulo: "Google Clone",
-        tecnologiasProyecto: ["HTML5", "CSS3"],
-        image: './images/Google-Clone.png',
-        link:'https://rafaelbautist19.github.io/clon-google-platzi/',
-        descripcion: "Clon de Google realizado con HTML5 y CSS3 para la clase de Curso Práctico de HTML y CSS de Platzi. Este proyecto se puede visualizar correctamente tanto solo en computadoras."
+        titulo: "TODO Reminder",
+        tecnologiasProyecto: ["HTML5", "CSS3", "React", "JavaScript"],
+        image: './images/TODO.png',
+        link:'https://rafaelbautist19.github.io/TODO-Reminder/',
+        descripcion: "TODO Reminder es un proyecto realizado con React para la clase de React de Platzi. Este proyecto se puede visualizar correctamente tanto en dispositivos móviles como en computadoras."
     },
     {
         id: 5,
