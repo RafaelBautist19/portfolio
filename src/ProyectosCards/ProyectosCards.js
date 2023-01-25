@@ -37,7 +37,7 @@ let proyectos = [
         tecnologiasProyecto: ["HTML5", "CSS3", "React", "JavaScript"],
         image: './images/TODO.png',
         link:'https://rafaelbautist19.github.io/TODO-Reminder/',
-        descripcion: "TODO Reminder es un proyecto realizado con React para la clase de React de Platzi. Este proyecto se puede visualizar correctamente tanto en dispositivos móviles como en computadoras."
+        descripcion: "TODO Reminder es un proyecto realizado con React para la clase de React de Platzi. Este proyecto se puede visualizar correctamente tanto en dispositivos móviles como en computadoras. "
     },
     // {
     //     id: 5,
