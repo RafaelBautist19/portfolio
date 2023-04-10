@@ -18,7 +18,7 @@ function InformacionPersonal() {
           <strong>Telefono:</strong> +504-9520-2808
         </ListGroup.Item>
         <ListGroup.Item>
-          <strong>Edad:</strong> 24 años
+          <strong>Edad:</strong> 25 años
         </ListGroup.Item>
         <ListGroup.Item>
           <strong>Ubicación:</strong> Tegucigalpa, Honduras
